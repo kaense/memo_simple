@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sample.memo_simple.MainActivity">
+    <item
+        android:id="@+id/c_size"
+        android:orderInCategory="100"
+        android:title="設定"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/backup"
+        android:orderInCategory="100"
+        android:title="アプリ起動時のデータに復元する"
+        app:showAsAction="never" />
+        -->
+</menu>

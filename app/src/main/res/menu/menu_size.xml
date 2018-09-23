@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sample.memo_simple.MainActivity">
+    <item
+        android:id="@+id/xs"
+        android:orderInCategory="100"
+        android:title="文字：極小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/s"
+        android:orderInCategory="100"
+        android:title="文字：小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/m"
+        android:orderInCategory="100"
+        android:title="文字：中"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/l"
+        android:orderInCategory="100"
+        android:title="文字：大"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/xl"
+        android:orderInCategory="100"
+        android:title="文字：極大"
+        app:showAsAction="never" />
+</menu>
